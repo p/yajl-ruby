@@ -1,4 +1,6 @@
-gem 'rake-compiler', '>= 0.7.5'
+if defined?(Gem)
+  gem 'rake-compiler', '>= 0.7.5'
+end
 require "rake/extensiontask"
 
 def gemspec
